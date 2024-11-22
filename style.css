@@ -678,6 +678,11 @@ body::-webkit-scrollbar{
         border-radius: 10px;
     }
 
+    #temp{
+        font-size: 1rem;
+        left: 20%;
+    }
+
     .title,.list{
         padding: 0.5rem 0;
     }
@@ -693,8 +698,7 @@ body::-webkit-scrollbar{
     .btnMinus,.btnPlus{
         width: 10px;
         height: 10px;
-        font-size: 0.7rem;
-        
+        font-size: 0.7rem;        
     }
 
     .itemImg img{
@@ -704,7 +708,7 @@ body::-webkit-scrollbar{
     }
 
     .customerInfo{
-        width: 100%;
+        width: 90%;
         height: 400px;
     }
 
@@ -730,7 +734,7 @@ body::-webkit-scrollbar{
     }
 
     .paymentMethods{
-        width: 100%;
+        width: 90%;
         height: 400px;
     }
 
@@ -740,7 +744,7 @@ body::-webkit-scrollbar{
     }
 
     .method1QR,.method2QR{
-        width: 80%;
+        width: 70%;
         height: 240px;
     }
 }

@@ -153,12 +153,8 @@ if(filter){
         select.classList.toggle("filter-active");
     })
 
-    filter.addEventListener("mouseover",() => {
-        select.classList.add("filter-active");
-    })
-
-    filter.addEventListener("mouseout",() => {
-        select.classList.remove("filter-active");
+    itemsContainer.addEventListener("click",() => {
+        select.classList.toggle("filter-active",false);
     })
 }
 
