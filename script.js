@@ -68,18 +68,18 @@ class Item{
 }
 
 let products = [];
-products[0] = new Item(1,"Blue T-shirt","T-shirt","Blue","Media/1.png",5000);
-products[1] = new Item(2,"Red T-shirt","T-shirt","Red","Media/2.png",5000);
-products[2] = new Item(3,"Green T-shirt","T-shirt","Green","Media/3.png",5000);
-products[3] = new Item(4,"Blue Hoodie","Hoodie","Blue","Media/4.png",10000);
-products[4] = new Item(5,"Black Hoodie","Hoodie","Black","Media/5.png",10000);
-products[5] = new Item(6,"Khaki Hoodie","Hoodie","Khaki","Media/6.png",10000);
-products[6] = new Item(7,"Khaki Pants","Pants","Khaki","Media/7.png",8000);
-products[7] = new Item(8,"Gray Pants","Pants","Gray","Media/8.png",8000);
-products[8] = new Item(9,"Blue Pants","Pants","Blue","Media/9.png",8000);
-products[9] = new Item(10,"T-shirt","T-shirt","Black","Media/10.png",10000);
-products[10] = new Item(11,"T-shirt","T-shirt","Gray","Media/11.png",10000);
-products[11] = new Item(12,"T-shirt","T-shirt","Black","Media/12.png",10000);
+products[0] = new Item(1,"Blue T-shirt","T-shirt","Blue","1.png",5000);
+products[1] = new Item(2,"Red T-shirt","T-shirt","Red","2.png",5000);
+products[2] = new Item(3,"Green T-shirt","T-shirt","Green","3.png",5000);
+products[3] = new Item(4,"Blue Hoodie","Hoodie","Blue","4.png",10000);
+products[4] = new Item(5,"Black Hoodie","Hoodie","Black","5.png",10000);
+products[5] = new Item(6,"Khaki Hoodie","Hoodie","Khaki","6.png",10000);
+products[6] = new Item(7,"Khaki Pants","Pants","Khaki","7.png",8000);
+products[7] = new Item(8,"Gray Pants","Pants","Gray","8.png",8000);
+products[8] = new Item(9,"Blue Pants","Pants","Blue","9.png",8000);
+products[9] = new Item(10,"T-shirt","T-shirt","Black","10.png",10000);
+products[10] = new Item(11,"T-shirt","T-shirt","Gray","11.png",10000);
+products[11] = new Item(12,"T-shirt","T-shirt","Black","12.png",10000);
 
 const addAllItem = () => {
     products.forEach((value,key) => {
