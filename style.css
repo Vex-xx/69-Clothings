@@ -616,6 +616,7 @@ body::-webkit-scrollbar{
     }
 
     .container{
+        min-height: 80vh;
         margin-top: 6vh;
     }
 
@@ -732,6 +733,7 @@ body::-webkit-scrollbar{
 
     #btnReset,#btnSubmit{
         width: 70px;
+        height: 30px;
     }
 
     .paymentMethods{
