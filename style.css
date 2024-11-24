@@ -631,7 +631,7 @@ body::-webkit-scrollbar{
     }
 
     .itemsContainer .item img{
-        height: 100px;
+        height: 120px;
     }
 
     .btnAdd{
