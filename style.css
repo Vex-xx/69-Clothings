@@ -652,6 +652,7 @@ body::-webkit-scrollbar{
 
     .head{
         padding: 1rem;
+        height: 10vh;
     }
 
     .yourCart{
